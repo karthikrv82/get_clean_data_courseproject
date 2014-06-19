@@ -2,7 +2,7 @@
 title: "Codebook"
 author: "Karthik Viswanath"
 date: "Tuesday, June 17, 2014"
-output: html_document
+output: md_document
 ---
 
 Course Project: Getting and Cleaning Data

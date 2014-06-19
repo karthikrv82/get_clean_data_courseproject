@@ -2,7 +2,7 @@
 title: "README"
 author: "Karthik Viswanath"
 date: "Wednesday, June 18, 2014"
-output: html_document
+output: md_document
 ---
 
 Coursera Course : Getting & Cleaning Data
@@ -21,7 +21,7 @@ This README document is broken down into following sections:<br />
 1. Download the project data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 Link is also provided in the references section of this document
 2. Place the downloaded .zip file into your current working directory (say $WORKING_DIR)
-3. Unzip the .zip file and place the contents in _\$WORKING\_DIR_
+3. Unzip the .zip file and place the contents in _$WORKING\_DIR_
 
         * You should have a folder by name 'UCI HAR Dataset' in your $WORKING_DIR
         * DO NOT modify or rename the contents of 'UCI HAR Dataset' folder
@@ -30,7 +30,7 @@ Link is also provided in the references section of this document
 
 
 ## How to generate the tidy data set using the provided R Script
-1. Download "_run\_analysis.R_" from [here](https://github.com/karthikrv82/get_clean_data_courseproject/blob/master/run_analysis.R) and place it in _\$WORKING\_DIR_
+1. Download "_run\_analysis.R_" from [here](https://github.com/karthikrv82/get_clean_data_courseproject/blob/master/run_analysis.R) and place it in _$WORKING\_DIR_
 2. Open "_run\_analysis.R_" in either R or R Studio
 
         * Under "##SET_WORKING_DIRECTORY" section in the script, enter the absolute path of your working directory ($WORKING_DIR) in the setwd() function call
