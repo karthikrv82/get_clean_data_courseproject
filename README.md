@@ -30,7 +30,7 @@ Link is also provided in the references section of this document
 
 
 ## How to generate the tidy data set using the provided R Script
-1. Download "_run\_analysis.R_" from [here]() and place it in _\$WORKING\_DIR_
+1. Download "_run\_analysis.R_" from [here](https://github.com/karthikrv82/get_clean_data_courseproject/blob/master/run_analysis.R) and place it in _\$WORKING\_DIR_
 2. Open "_run\_analysis.R_" in either R or R Studio
 
         * Under "##SET_WORKING_DIRECTORY" section in the script, enter the absolute path of your working directory ($WORKING_DIR) in the setwd() function call
