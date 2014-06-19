@@ -57,7 +57,7 @@ Link is also provided in the references section of this document
 
 ## What steps were followed to create the tidy data set (or) how is the R Script designed to work
 The following approach was taken to create the tidy data set from the project files<br />
-1. Identify the relevant project files that are required to create tidy data set
+1.) Identify the relevant project files that are required to create tidy data set
 
         *How?
         From the README.txt file that was part of the project folder, I was able to get the following
@@ -74,7 +74,7 @@ The following approach was taken to create the tidy data set from the project fi
                                 * y_train and y_test contain labels for corresponding group
                         - Inertial Signals folder containing bunch of text files related to some signal values which are not required for this project as we are interested only in mean and standard deviation values
 
-2. Extract the relevant data from the files identified in step 1
+2.) Extract the relevant data from the files identified in step 1
 
         a) Extract relevant data from generic files
                 1a. By reading features.txt file into R studio using Tools -> Import Dataset, found out that it is space delimited file with feature id and feature names as content of the file
@@ -115,17 +115,17 @@ The following approach was taken to create the tidy data set from the project fi
                 3b. Use read.fwf() to read it into a data frame with 7352 observations of 561 variables
                 3c. Map the feature names in the dataframe with features vector created in step (2.a.1c) above
                 
-3. Merge the final data from steps (2.a) and (2.b) above
+3.) Merge the final data from steps (2.a) and (2.b) above
 
                 a. Use cbind() function to merge  testsubjects, testactivity and testdata into a single data frame
                 b. Use cbind() function to merge trainingsubjects, trainingactivity and trainingdata into a single data frame
                 c. Convert unified test and training data frame into matrix and rbind it into tidydataframe
         
-4. Using gsub() function, re-name the variables to have some meaningful abbreviation as mentioned in the code comment
+4.) Using gsub() function, re-name the variables to have some meaningful abbreviation as mentioned in the code comment
         
-5. Using aggregate() function, calculate the Average of all the measure variables relative to 'subjectid' and 'activitytype'
+5.) Using aggregate() function, calculate the Average of all the measure variables relative to 'subjectid' and 'activitytype'
         
-6. Write the final tidy data set object created from step (e) into a file using write.table() function
+6.) Write the final tidy data set object created from step (e) into a file using write.table() function
 
 The final aggregated tidy data set contains 180 observations of 81 variables
 
